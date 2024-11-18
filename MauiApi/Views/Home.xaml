@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApi.Views.Home"
+             Title="Home">
+    <VerticalStackLayout >
+        <!-- Верхняя часть страницы -->
+        <StackLayout Orientation="Horizontal" Padding="20" VerticalOptions="Start">
+            <Image x:Name="AvatarHome" WidthRequest="500" HeightRequest="500" HorizontalOptions="Start" Margin="10"></Image>
+            <Label x:Name="NicknameHome" VerticalOptions="Center" FontAttributes="Bold" FontSize="20"></Label>
+            
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
